@@ -14,6 +14,12 @@
     <link href='http://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
 	<link rel="icon" href="favicon.ico" type="image/png">
 	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+	<style>
+		.timer-diagram { width: 7.5em; }
+		.timer-diagram img { width: 5em; }
+		.memory-rules h4 { margin-top: 0; }
+		.memory-rules p { margin-top: 0; margin-bottom: 0.3em; }
+	</style>
 </head>
 <body>
     <template id="pagecount">Seite % von %</template>
@@ -68,7 +74,7 @@
 
 			<h3>Module</h3>
 			<p>Jede Bombe besteht aus bis zu 11 Modulen, die entschärft werden müssen. Module sind unabhängig voneinander und können in beliebiger Reihenfolge entschärft werden.</p>
-			<p>Anleitungen zur Entschärfung von Modulen finden sich in Abschnitt 1. "Hartnäckige" Module sind ein Spezialfall und in Abschnitt 2 beschrieben.</p>
+			<p>Anleitungen zur Entschärfung von Modulen finden sich in Abschnitt 1. "Aufdringliche" Module sind ein Spezialfall und in Abschnitt 2 beschrieben.</p>
 
 
             <h3>Fehler</h3>
@@ -273,7 +279,7 @@
             <h2>Bezüglich Memory</h2>
 		    <p class="flavour-text">Das Gedächtnis ist ein zerbrechliches Ding, aber das trifft auch auf so ziemlich alles andere zu, wenn eine Bombe hochgeht, also passen Sie auf!</p>
 		    <ul>
-				<li>Drücken Sie den richtigen Knopf, um das Model in die nächste Phase zu bringen. Lösen Sie alle Phasen, um das Modul zu entschärfen.</li>
+				<li>Drücken Sie den richtigen Knopf, um das Model in die nächste Phase zu bringen. Lösen Sie alle Phasen, um das Modul zu entschärfen.</li><div style="clear:both"></div>
 			    <li>Das Drücken eines falschen Knopfes wird das Modul zu Phase 1 zurücksetzen.</li>
                 <li>Die Knopfreihenfolge ist von links nach rechts.</li>
 		    </ul>
@@ -424,17 +430,17 @@
     <div class="page section-title">
         		<div class="page-header">
 			<span class="page-header-doc-title">Keep Talking and Nobody Explodes v. 1</span>
-			<span class="page-header-section-title">Abschnitt 2: Anhängliche Module</span>
+			<span class="page-header-section-title">Abschnitt 2: Aufdringliche Module</span>
 		</div>
         <div class="page-footer absolute-footer"></div>
         <div class="page-content">
             <div class="vertical-spacer"></div>
 	        <img src="/assets/img/NeedyComponent.svg" class="diagram" />
 			<div class="new-block-formatting-context">
-				<h1>Abschnitt 2: Anhängliche Module</h1>
-				<p>Anhängliche Module können nicht entschärft werden, sondern stellen eine wiederkehrende Gefahr dar.</p>
-				<p>Anhängliche Module können an ihrem kleinen zweistelligen Timer oben in der Mitte erkannt werden. Mit der Bombe zu interagieren kann ihre Aktivierung zur Folge haben. Wenn sie aktiviert wurden, muss sich um sie gekümmert werden bevor der Timer abläuft, um einen Fehler zu vermeiden.</p>
-				<p>Bleiben Sie wachsam: Anhängliche Module können jederzeit reaktiviert werden.</p>
+				<h1>Abschnitt 2: Aufdringliche Module</h1>
+				<p>Aufdringliche Module können nicht entschärft werden, sondern stellen eine wiederkehrende Gefahr dar.</p>
+				<p>Aufdringliche Module können an ihrem kleinen zweistelligen Timer oben in der Mitte erkannt werden. Mit der Bombe zu interagieren kann ihre Aktivierung zur Folge haben. Wenn sie aktiviert wurden, muss sich um sie gekümmert werden bevor der Timer abläuft, um einen Fehler zu vermeiden.</p>
+				<p>Bleiben Sie wachsam: Aufdringliche Module können jederzeit reaktiviert werden.</p>
 			</div>
         </div>
         <div class="page-footer relative-footer"></div>
@@ -470,7 +476,7 @@
             <h2>Bezüglich des Entladens von Kondensatoren</h2>
             <p class="flavour-text">Ich nehme mal an, dass das nur dafür da ist, Ihre Aufmerksamkeit zu stehlen, denn andernfalls ist das ziemlich schlampige Elektronik.</p>
             <ul>
-				<li>Entladen Sie den Kondensator, indem Sie den Hebel runterdrücken, bevor er überläd.</li>
+				<li>Entladen Sie den Kondensator, indem Sie den Hebel runterdrücken, bevor er überlädt.</li>
 			<ul>
         </div>
         <div class="page-footer relative-footer"></div>
@@ -486,7 +492,7 @@
         <div class="page-content">
     	    <img src="/assets/img/NeedyKnobComponent.svg" class="diagram" />
             <h2>Bezüglich des Drehknaufs</h2>
-            <p class="flavour-text">Unnötig kompliziert und unendlich anhänglich. Stellen Sie sich vor, solche Expertise würde für etwas anderes als diabolische Puzzles verwendet.</p>
+            <p class="flavour-text">Unnötig kompliziert und unfassbar aufdringlich. Stellen Sie sich vor, solche Expertise würde für etwas anderes als diabolische Puzzles verwendet.</p>
 			<ul>
 				<li>Der Drehknauf kann zu einer von vier Positionen gedreht werden.</li>
 				<li>Der Drehknauf muss in der richtigen Position stehen, wenn der Timer des Moduls 0 erreicht.</li>
